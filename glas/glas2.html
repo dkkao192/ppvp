@@ -1,0 +1,31 @@
+<meta charset="utf-8"/>
+<html>
+<head>
+<title>문제 [2]</title>자바스크립트의 확장자는?<br><style>
+    h2 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+  </style>
+<hr>
+<script language="javascript">
+function js(){
+ 
+    //txt_Value값을 가져옵니다.
+    var value = document.getElementById("js").value;
+    if(value == "js"){
+        alert("정답입니다");
+        location.href='glas3.html'
+    }else{
+        alert("틀렸습니다");
+    }
+}
+</script>
+<body>
+<input type='text' id='js'/>
+<input type='button' onclick='js()' value='확정'/>
+<link rel="stylesheet" href="glas.css">
+</body>
+</html>
